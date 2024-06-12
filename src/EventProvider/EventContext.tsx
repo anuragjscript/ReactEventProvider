@@ -51,7 +51,7 @@ export const EventProvider = ({
       eventId,
       type,
       data,
-      consumed: type === "consume" ? true : false,
+      consumed: type === "consume",
     };
 
     setEventLog((prevLog) => {
